@@ -28,6 +28,11 @@ body, h1, h2, h3, p, ul, li {
     margin-right: 20px;
     font-weight: bold;
   }
+
+  .container_header{
+    display: flex;
+    align-items: center;
+  }
   
   /* Estilos para links */
   header ul li a {
@@ -37,12 +42,27 @@ body, h1, h2, h3, p, ul, li {
   }
   
   header ul li a:hover {
-    color: #ff6600;
+    color: #4d2003;
   }
   
 
   .titulo{
+    color: #4d2003;
     font-weight: bold;
     font-size: 48px;
     text-align: center;
+  }
+
+  .cadastro{
+    padding: 10px 20px;
+    background-color: #00aa00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0,1s ease-in-out;
+  }
+
+  .cadastro:hover{
+    background-color: #00aa00;
   }
