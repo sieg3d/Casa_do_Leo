@@ -1,3 +1,30 @@
+/* Estilos para telas menores (até 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header img {
+    margin: 10px 0;
+  }
+  
+  header ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  header ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .titulo {
+    font-size: 36px;
+  }
+}
+
+
 /* Resetando estilos padrão do navegador */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -60,9 +87,22 @@ body, h1, h2, h3, p, ul, li {
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0,1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
   }
 
   .cadastro:hover{
     background-color: #00aa00;
+  }
+
+
+  .carrossel{
+    display: flex;
+    overflow: hidden;
+   
+  }
+
+  .imgs_carrossel{
+    flex: 0 0 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
   }
